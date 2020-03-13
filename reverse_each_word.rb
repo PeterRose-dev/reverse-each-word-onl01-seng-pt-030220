@@ -1,8 +1,5 @@
 def reverse_each_word(sentence1)
-  sentence2 << sentence1.split.each do |word| word.reverse 
-  
-  "Hello there, and how are you?"
-  
+  sentence1 = "Hello there, and how are you?"
   reversed_sentence = []
   split_sentence1 = sentence1.split
   split_sentence1.reverse_each do |x| reversed_sentence << print "#{x}"
