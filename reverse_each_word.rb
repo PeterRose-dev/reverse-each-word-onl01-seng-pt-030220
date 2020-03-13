@@ -13,13 +13,13 @@ reverse_each_word(string)
 
 
 
-def reverse_each_word(sentence1)
-  sentence1.collect do |x| "#{x}".reverse
-end
+def reverse_each_word(string)
+  string.collect do |x| "#{x}".reverse
+  end
 end
 
-reverse_each_word(sentence1)
-
+string = "Hello there, and how are you?"
+reverse_each_word(string)
 
 ## Instructions
 
