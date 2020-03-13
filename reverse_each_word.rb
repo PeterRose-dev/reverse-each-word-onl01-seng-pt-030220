@@ -5,7 +5,7 @@ def reverse_each_word(string)
   array.each do |word| array2 << "#{word}".reverse
   
   end
-  
+array
 end
 
 string = "Hello there, and how are you?"
