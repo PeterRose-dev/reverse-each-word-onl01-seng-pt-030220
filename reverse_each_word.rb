@@ -2,7 +2,7 @@ def reverse_each_word(string)
   array = []
   array << string.split 
   array2 = []
-  array.each do |word| array2 << word.to_a
+  array.each do |word| array2 << "#{word}"
   end
   array2
 end
@@ -10,21 +10,13 @@ end
 string = "Hello there, and how are you?"
 reverse_each_word(string)
 
-def reverse_each_word(sentence1)
-  sentence1 = "Hello there, and how are you"
- 
-  sentence1.reverse_each do |x|  print x
-end
-sentence1
-end
-   sentence1 = ["Hello there, and how are you?"]
-reverse_each_word(sentence1)
 
 sentence1 = ["Hello there, and how are you?"]
 def reverse_each_word(sentence1)
   sentence1.collect do |x| "#{x}".reverse
 end
 end
+
 reverse_each_word(sentence1)
 
 
