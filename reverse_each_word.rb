@@ -1,9 +1,10 @@
-
 def reverse_each_word(string)
   array = []
   array << string.split 
-  array.each do |word| word.reverse
+  array2 = []
+  array.each do |word| array2 << word.reverse
   end
+  array2
 end
 
 string = "Hello there, and how are you?"
