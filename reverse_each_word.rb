@@ -1,4 +1,5 @@
 def reverse_each_word(string)
+  string.split 
   sentence1 = "Hello there, and how are you?"
   reversed_sentence = []
   split_sentence1 = sentence1.split
