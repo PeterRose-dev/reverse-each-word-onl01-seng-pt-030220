@@ -12,7 +12,7 @@ string = "Hello there, and how are you?"
 reverse_each_word(string)
 
 
-sentence1 = ["Hello there, and how are you?"]
+
 def reverse_each_word(sentence1)
   sentence1.collect do |x| "#{x}".reverse
 end
