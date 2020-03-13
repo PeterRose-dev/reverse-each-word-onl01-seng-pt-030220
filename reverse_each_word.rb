@@ -1,7 +1,11 @@
 def reverse_each_word(sentence1)
-  sentence2 << sentence1.split.each do |word| word.reverse 
-  
-  "Hello there, and how are you?"
+  sentence1.split 
+  sentence2 << sentence1.split
+  sentence2.each do |word| word.reverse 
+end
+end
+sentence1 = "Hello there, and how are you?"
+reverse_each_word(sentence1)
   
   reversed_sentence = []
   split_sentence1 = sentence1.split
