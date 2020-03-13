@@ -1,4 +1,4 @@
-def reverse_each_word(sentence1)
+def reverse_each_word(string)
   sentence1 = "Hello there, and how are you?"
   reversed_sentence = []
   split_sentence1 = sentence1.split
